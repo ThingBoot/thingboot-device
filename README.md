@@ -2,7 +2,7 @@
 
 **中文** | [English](README_EN.md)
 
-芯步设备端是 [芯步物联网生态](https://github.com/ThingBoot/thingboot-iot) 设备侧的设备开发套件，
+芯步设备端是 [芯步（ThingBoot）企业级物联网生态与技术框架](https://github.com/ThingBoot/thingboot-iot) 设备侧的设备开发套件，
 运行在 ESP（乐鑫）系列芯片上，提供 Arduino 框架与 ESP-IDF 两种版本的固件 SDK 及配套驱动，
 内置 WiFi、以太网、4G Cat.1 与 WiFi Mesh 组网能力，开箱即用直连芯步云平台并支持 OTA 升级。
 
@@ -11,20 +11,22 @@
 ```
 thingboot-iot 芯步物联网生态
 │
-├── 上层
+├── 用户侧
 │   ├── thingboot-web        芯步 Web 端
-│   ├── thingboot-client     芯步客户端
-│   └── thingboot-device ★ 本仓库
-│       ├── thingboot-device-esp-arduino-sdk      芯步乐鑫 Arduino 固件 SDK
-│       ├── thingboot-device-esp-arduino-drivers  芯步乐鑫 Arduino 驱动
-│       ├── thingboot-device-esp-idf-sdk          芯步乐鑫 IDF 固件 SDK
-│       └── thingboot-device-esp-idf-sdk-driver   芯步乐鑫 IDF 驱动
+│   └── thingboot-client     芯步客户端
 │
-└── 底层
-    └── thingboot-cloud      芯步云平台
+├── 平台侧
+│   └── thingboot-cloud      芯步云平台
+│
+└── 设备侧
+    └── thingboot-device ★ 本仓库
+        ├── thingboot-device-esp-arduino-sdk      芯步乐鑫 Arduino 固件 SDK
+        ├── thingboot-device-esp-arduino-drivers  芯步乐鑫 Arduino 驱动
+        ├── thingboot-device-esp-idf-sdk          芯步乐鑫 IDF 固件 SDK
+        └── thingboot-device-esp-idf-sdk-driver   芯步乐鑫 IDF 驱动
 ```
 
-芯步设备端通过 MQTT / HTTPS 与底层的 [芯步云平台](https://github.com/ThingBoot/thingboot-cloud) 交互；
+芯步设备端通过 MQTT / HTTPS 与平台侧的 [芯步云平台](https://github.com/ThingBoot/thingboot-cloud) 交互；
 在纯局域网模式下亦可开放 HTTP / TCP 接口独立运行。
 
 ## 子项目

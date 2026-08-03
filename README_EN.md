@@ -2,8 +2,8 @@
 
 [中文](README.md) | **English**
 
-ThingBoot Device is the device-side development kit collection of the
-[ThingBoot IoT ecosystem](https://github.com/ThingBoot/thingboot-iot).
+ThingBoot Device is the DEVICE-side development kit collection of the
+[ThingBoot enterprise-grade IoT ecosystem and technical framework](https://github.com/ThingBoot/thingboot-iot).
 The kits run on ESP (Espressif) chips and provide firmware SDKs in both Arduino-framework
 and ESP-IDF versions together with matching drivers, with built-in WiFi, Ethernet,
 4G Cat.1 and WiFi Mesh networking, out-of-the-box cloud connection and OTA support.
@@ -13,20 +13,22 @@ and ESP-IDF versions together with matching drivers, with built-in WiFi, Etherne
 ```
 thingboot-iot ThingBoot IoT Ecosystem
 │
-├── Upper Layer
+├── USER SIDE
 │   ├── thingboot-web        ThingBoot Web
-│   ├── thingboot-client     ThingBoot Client
-│   └── thingboot-device ★ this repository
-│       ├── thingboot-device-esp-arduino-sdk      ESP Arduino firmware SDK
-│       ├── thingboot-device-esp-arduino-drivers  ESP Arduino drivers
-│       ├── thingboot-device-esp-idf-sdk          ESP-IDF firmware SDK
-│       └── thingboot-device-esp-idf-sdk-driver   ESP-IDF drivers
+│   └── thingboot-client     ThingBoot Client
 │
-└── Cloud Layer
-    └── thingboot-cloud      ThingBoot Cloud Platform
+├── CLOUD SIDE
+│   └── thingboot-cloud      ThingBoot Cloud Platform
+│
+└── DEVICE SIDE
+    └── thingboot-device ★ this repository
+        ├── thingboot-device-esp-arduino-sdk      ESP Arduino firmware SDK
+        ├── thingboot-device-esp-arduino-drivers  ESP Arduino drivers
+        ├── thingboot-device-esp-idf-sdk          ESP-IDF firmware SDK
+        └── thingboot-device-esp-idf-sdk-driver   ESP-IDF drivers
 ```
 
-ThingBoot Device talks to the underlying [ThingBoot Cloud Platform](https://github.com/ThingBoot/thingboot-cloud) over MQTT / HTTPS;
+ThingBoot Device talks to the CLOUD-side [ThingBoot Cloud Platform](https://github.com/ThingBoot/thingboot-cloud) over MQTT / HTTPS;
 in pure LAN mode it can also expose HTTP / TCP interfaces and run standalone.
 
 ## Sub-projects
