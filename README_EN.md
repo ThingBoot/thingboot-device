@@ -37,7 +37,7 @@ in pure LAN mode it can also expose HTTP / TCP interfaces and run standalone.
 | --- | --- |
 | [thingboot-device-esp-arduino-sdk](https://github.com/ThingBoot/thingboot-device-esp-arduino-sdk) | ThingBoot Device ESP-Arduino SDK, supporting ESP8266 / ESP32 / ESP32-S3 / ESP32-C6, with built-in WiFi, Ethernet, 4G Cat.1 and WiFi Mesh networking, out-of-the-box cloud connection and OTA |
 | [thingboot-device-esp-arduino-drivers](https://github.com/ThingBoot/thingboot-device-esp-arduino-drivers) | ThingBoot Device ESP-Arduino drivers |
-| [thingboot-device-esp-idf-sdk](https://github.com/ThingBoot/thingboot-device-esp-idf-sdk) | ThingBoot Device ESP-IDF SDK, a port of the Arduino SDK above, supporting ESP32 / ESP32-S3 / ESP32-C6 / ESP32-C3, with an API highly consistent with the Arduino version |
+| [thingboot-device-esp-idf-sdk](https://github.com/ThingBoot/thingboot-device-esp-idf-sdk) | ThingBoot Device ESP-IDF SDK, supporting ESP32 / ESP32-S3 / ESP32-C6 / ESP32-C3, with built-in WiFi, Ethernet, 4G Cat.1 and WiFi Mesh networking, out-of-the-box cloud connection and OTA, and an API consistent with the Arduino version |
 | [thingboot-device-esp-idf-driver](https://github.com/ThingBoot/thingboot-device-esp-idf-drivers) | ThingBoot Device ESP-IDF drivers |
 
 ## Related Repositories

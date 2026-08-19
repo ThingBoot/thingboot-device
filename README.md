@@ -35,7 +35,7 @@ thingboot-iot 芯步物联网生态
 | --- | --- |
 | [thingboot-device-esp-arduino-sdk](https://github.com/ThingBoot/thingboot-device-esp-arduino-sdk) | 芯步设备 ESP-Arduino SDK，支持 ESP8266 / ESP32 / ESP32-S3 / ESP32-C6，内置 WiFi、以太网、4G Cat.1 与 WiFi Mesh 组网，开箱即用的平台直连与 OTA |
 | [thingboot-device-esp-arduino-drivers](https://github.com/ThingBoot/thingboot-device-esp-arduino-drivers) | 芯步设备 ESP-Arduino 驱动 |
-| [thingboot-device-esp-idf-sdk](https://github.com/ThingBoot/thingboot-device-esp-idf-sdk) | 芯步设备 ESP-IDF SDK，Arduino 版 SDK 的 ESP-IDF 移植版，支持 ESP32 / ESP32-S3 / ESP32-C6 / ESP32-C3，接口与 Arduino 版高度一致 |
+| [thingboot-device-esp-idf-sdk](https://github.com/ThingBoot/thingboot-device-esp-idf-sdk) | 芯步设备 ESP-IDF SDK，支持 ESP32 / ESP32-S3 / ESP32-C6 / ESP32-C3，内置 WiFi、以太网、4G Cat.1 与 WiFi Mesh 组网，开箱即用的平台直连与 OTA，接口与 Arduino 版保持一致 |
 | [thingboot-device-esp-idf-driver](https://github.com/ThingBoot/thingboot-device-esp-idf-drivers) | 芯步设备 ESP-IDF 驱动 |
 
 ## 相关仓库
